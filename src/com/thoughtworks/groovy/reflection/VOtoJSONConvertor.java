@@ -6,7 +6,6 @@ public class VOtoJSONConvertor {
 
 	public static void main(String[] args) {
 		// Invoke method to get the class details
-		//converter(BookVO.class);
 		converter(LibraryVO.class);
 	}
 	// I do not know what the data type for the class is , so i Pass a ? (Question Mark)

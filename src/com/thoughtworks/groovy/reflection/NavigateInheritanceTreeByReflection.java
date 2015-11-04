@@ -14,6 +14,7 @@ public class NavigateInheritanceTreeByReflection {
 		//Find the package of superclass
 		Package pac = sup.getPackage();
 		System.out.println("Package of Superclass :: "+pac);
+		
 	}
 	
 

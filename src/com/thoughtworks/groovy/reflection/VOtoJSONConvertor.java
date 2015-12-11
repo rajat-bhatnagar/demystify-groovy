@@ -6,7 +6,8 @@ public class VOtoJSONConvertor {
 
 	public static void main(String[] args) {
 		// Invoke method to get the class details
-		converter(LibraryVO.class);
+		//converter(LibraryVO.class);
+		converter(BookVO.class);
 	}
 	// I do not know what the data type for the class is , so i Pass a ? (Question Mark)
 	public static String converter(Class<?> c){
@@ -25,7 +26,8 @@ public class VOtoJSONConvertor {
 		//Initialize the object
 		Object object = null;
 		try {
-			object = constructor.newInstance(1,"Spirituality");
+			//object = constructor.newInstance(1,"Spirituality");
+			object = constructor.newInstance();
 			System.out.println(object);
 		} catch (Exception e) {
 			System.out.println(e.getLocalizedMessage());

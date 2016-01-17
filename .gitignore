@@ -5,3 +5,6 @@ target/
 .tmp
 bin/
 .classpath
+.idea
+.settings
+groovy.iml
